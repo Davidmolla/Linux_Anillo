@@ -1,0 +1,10 @@
+Ejer1: grep -E '\bagujero\w*' anillo.txt
+Ejer2: grep -iE '\bagujero\w*' anillo.txt
+Ejer3: grep -w '\banillo\b' anillo.txt
+Ejer4: grep -viE 'anillo' -n anillo.txt
+Ejer5: grep '^Frodo' anillo.txt
+Ejer6: grep 'Mordor$' anillo.txt
+Ejer7: grep -E '.ue' anillo.txt
+Ejer8: grep -C 2 -w 'elfo' anillo.txt
+Ejer9: grep -i -A 1 'compañía' anillo.txt
+Ejer10: grep -i 'Gandalf' anillo.txt | grep -i 'Gris'
